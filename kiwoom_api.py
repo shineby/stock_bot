@@ -1,5 +1,9 @@
 import sys
 from pykiwoom.kiwoom import *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 39a675b826938a3968bf01f29ff94d12aaa22cd8
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QAxContainer import *
@@ -33,3 +37,12 @@ if __name__ == "__main__":
     myWindow = MyWindow()
     myWindow.show()
     app.exec_()
+<<<<<<< HEAD
+=======
+=======
+
+kiwoom = Kiwoom()
+kiwoom.CommConnect(block=True)
+print("블록킹 로그인 완료")
+>>>>>>> e0ad4f6275af57bf10100ba15f93a73248e30aa1
+>>>>>>> 39a675b826938a3968bf01f29ff94d12aaa22cd8
