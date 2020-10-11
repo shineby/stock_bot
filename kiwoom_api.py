@@ -23,7 +23,9 @@ class MyWindow(QMainWindow):
     def onclicked_btn_login(self):
         kiwoom = Kiwoom()
         kiwoom.CommConnect(block=True)
-        self.update_statusbar("connected")        
+        state = kiwoom.GetConnectState()
+        if state == 1:
+            self.update_statusbar("connected")        
 
 
 if __name__ == "__main__":
