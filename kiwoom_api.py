@@ -1,14 +1,14 @@
 import sys
+import backtrader as bt
+from datetime import datetime
 from pykiwoom.kiwoom import *
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 39a675b826938a3968bf01f29ff94d12aaa22cd8
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QAxContainer import *
 
 # https://wikidocs.net/84079
+# finance reader https://financedata.github.io/posts/finance-data-reader-users-guide.html
+
 
 class MyWindow(QMainWindow):
     def __init__(self):
