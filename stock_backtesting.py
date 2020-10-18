@@ -39,7 +39,7 @@ cerebro = bt.Cerebro()  # create a "Cerebro" engine instance
 
 # Create a data feed
 data = bt.feeds.YahooFinanceData(dataname='078930.KS',
-                                 fromdate=datetime(2018, 1, 1),
+                                 fromdate=datetime(2007, 1, 1),
                                  todate=datetime(2020, 10, 1))
 cerebro.broker.setcash(10000000.0)
 cerebro.adddata(data)  # Add the data feed
